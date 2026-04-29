@@ -1,7 +1,7 @@
 
-# **BIOR90 Evolutionary Biology - Methods and Applications 2025**
+# **BIOR90 Evolutionary Biology - Methods and Applications 2026**
 
-Teachers Jadranka Rota, Niklas Wahlberg, Etka Yapar, and Sridhar Halali
+Teachers Jadranka Rota, Niklas Wahlberg, Emma Kärrnäs, and Etka Yapar
 
 ## **Introduction**
 
@@ -9,30 +9,18 @@ In this course we will learn in practice how to download data from GenBank, crea
 
 ## **Program**
 
-**Location:** Krypt-Raggmossan (T109), Ekologihuset, Lund University, Sölvegatan 37, 223 62 Lund
+**Location:** Tanken (D143), Ekologihuset, Lund University, Kontaktvägen 10, 223 62 Lund
 
-<!--
-| Hours\Days | April 29 | May 5 | May 6 | May 7 |
+
+| Hours\Days | Wed April 29 | Mon May 4 | Tue May 5 | Wed May 6 |
 | --- | ---- | ---- | ---- | ---- |
-| 9:00-10:30 | Module outline, relevant databases (BOLD, GenBank, Darwin Tree of Life (NW, JR) | Tutorials 3-5 (JR, EY, NW) | Tutorial 6 (JR, EY) | Tutorial 8 (SH) |
-| 10:30-12:00 | Introduction to alignments, different file formats (NW) | Tutorial 3-5 (cont.) (JR, EY, NW) | Tutorial 6 (JR, EY, NW) | Tutorial 8 (SH) |
+| 9:00-10:00 | Module outline by Charlie Cornwallis | Tutorials 3-4 (EY, JR) | Tutorial 8 (EY, NW) | Tutorial 9 (EK, EY) |
+| 10:00-12:00 | Introduction to alignments, different file formats (NW) | Tutorial 5 (EY, JR) | Tutorial 8 (EY, NW) | Tutorial 10 (EK, EY, JR) |
 | 12:00-13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00-14:30 | Tutorial 1 | Tutorials 3-5 (cont.) (JR, EY, NW) |  free | Tutorial 9 (JR, EY) |
-| 14:30-16:00 | Tutorial 2 | Tutorials 3-5 (cont.) (JR, EY, NW) | free | Tutorial 9 (JR, EY) |
--->
-
-<!-- | 10:30-12:00 | Introduction to alignments, different file formats (NW) | Tutorial 3-5 (cont.) (JR, EY, NW) | Tutorial 7 (JR, EY, NW) | Tutorial 8 (SH, EY)(cont.) (SH) | -->
-
-| Hours\Days | Tue April 29 | Mon May 5 | Tue May 6 | Wed May 7 |
-| --- | ---- | ---- | ---- | ---- |
-| 9:00-10:00 | Module outline by Charlie Cornwallis | Tutorial 1 (EY, JR, NW) | Tutorial 6 (EY, NW) | Tutorial 9 (EY, JR) |
-| 10:00-12:00 | Introduction to alignments, different file formats (NW) | Tutorial 2 (EY, JR, NW) | Tutorial 7 (EY, NW) | Tutorial 9 (EY, JR) (cont.) |
-| 12:00-13:00 | Lunch | Lunch | Lunch | Lunch |
-| 13:00-14:30 | free | Tutorial 3-5 (EY, JR) | Tutorial 8 (EY, NW) | Tutorial 10 (EY, JR) |
-| 14:30-16:00 | free | Tutorial 3-5 (EY, JR) | Tutorial 8 (cont.) (EY, NW) | Tutorial 10 (cont.) (EY, JR) |
+| 13:00-14:30 | Tutorial 1 (EY, JR) | Tutorial 6 (EY, NW) | Memorial seminar Bengt Olle Bengtsson | Catch up time (EK, EY)  |
+| 14:30-16:00 | Tutorial 2 (EY, JR) | Tutorial 7 (EY, NW) | Memorial seminar Bengt Olle Bengtsson (cont.) | Catch up time (EK, EY, JR) |
 
 <!--  -->
-
 
 
 
@@ -40,7 +28,7 @@ In this course we will learn in practice how to download data from GenBank, crea
 
 ### [Course assignment](./Assignment/)
 
-Here are the details for the pass/fail assignment that you need to complete by Friday May 9.
+Here are the details for the pass/fail assignment that you need to complete by Friday May 8.
 
 ### [Course slides](./Lectures/)
 
@@ -88,11 +76,11 @@ Here you can find a list of the programs we are going to use and links to where 
    	- **Notepad++** for Windows users
    	- **Linux** users not covered
 
- * [MAFFT](https://mafft.cbrc.jp/alignment/software/)
+ * [MAFFT](https://mafft.cbrc.jp/alignment/software/) - no need to install, we only use the online version
 
  * [AliView](http://www.ormbunkar.se/aliview/downloads/)
 
- * [IQ-TREE2](http://www.iqtree.org/)
+ * [IQ-TREE3](http://www.iqtree.org/)
  
  * [MrBayes](http://nbisweden.github.io/MrBayes/)
 	
