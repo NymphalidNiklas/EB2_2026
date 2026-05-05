@@ -110,7 +110,7 @@ newnames$Accession = rownames(newnames)
 
 cats.data = newnames %>% left_join(cats.data)
 
-cats.forest = setNames(cats.data$forest, cats.data$Tip.name)
+cats.forest = setNames(cats.data$forest, cats.data$newnames)
 head(cats.forest)
 ```
 ```
