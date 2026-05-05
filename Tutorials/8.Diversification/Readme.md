@@ -46,6 +46,7 @@ after making sure you have the package, load it into your environment:
 ```R
 library(diversitree)
 library(phytools)
+library(tidyverse) ## install.packages("tidyverse") if you don't have it installed!
 ```
 
 Then, we need to load our timed tree and the associated data:
@@ -58,7 +59,7 @@ cats.data = read.csv("FelidaeData.csv", header=T)
 We will prune the outgroups from our tree first, with the help of the `drop.tip()` function:
 
 ```R
-outgroups = grep("Hyaena|Herpestes", cats.tree$tip.label, value=T)
+outgroups = grep("Hyaena|Herpestes|Xenogale", cats.tree$tip.label, value=T)
 cats.tree.ingroup = drop.tip(cats.tree, outgroups,)
 ```
 Then we will plot it quickly to check if everything is alright.
@@ -99,7 +100,16 @@ Now, let's drop these tips from our tree and subset our accompanying data so tha
 ct = drop.tip(cats.tree.ingroup, tips_to_remove)
 
 rownames(cats.data) = cats.data$Tip.name
-cats.data = cats.data[ct$tip.label,]
+# Add a new column to the data for acccesion numbers
+cats.data$Accession = sapply(strsplit(cats.data$Tip.name, "_"), function(x){x[[1]]})
+newnames = data.frame(unlist(sapply(cats.data$Accession, function(acc){
+   matching_tip = grep(acc, ct$tip.label, value=T)
+   return(matching_tip)
+})))
+newnames$Accession = rownames(newnames)
+
+cats.data = newnames %>% left_join(cats.data)
+
 cats.forest = setNames(cats.data$forest, cats.data$Tip.name)
 head(cats.forest)
 ```
